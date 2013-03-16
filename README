@@ -1,4 +1,11 @@
-This is your new Play 2.0 application
+Play2 - i18n - Sample
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
+Is a very small and simple project in Play framework 2.0.4 for show a way for internalization into Scala Template and Javascript files.
+
+Use JMessage (https://github.com/julienrf/play-jsmessages) for internalization into Javascript files.
+
+I based on this project (https://github.com/biesior/play-2.0-switchable-language-java) for the Internalization into Scala Templates.
+
+
+
