@@ -1,0 +1,20 @@
+@(message: String)
+
+@main("Play2-i18n-sample") {
+   <div class="container">
+	   
+	   <div class="form-horizontal" style="padding-left: 40px;">
+	   	  <h3>@Language.message("text_in_template")</h3> 
+		  <input id="button" type="submit" class="btn primary" value="Click()" >
+		</div>  
+	</div>
+	
+	<div id="footer">
+      <div class="container">
+      		@for(lang <- Language.otherLanguageItems()){
+			      <p class="muted credit" style="text-align: center;"> <a id="lenguaje" href="@lang.switchUrl" >@lang.name</a></p> 
+			}
+      </div>
+    </div>
+    
+}
